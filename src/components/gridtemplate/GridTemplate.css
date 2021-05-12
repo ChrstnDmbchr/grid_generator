@@ -1,0 +1,23 @@
+.grid {
+  position: relative;
+}
+
+.grid-template {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.grid-template div:not(:first-child){
+  border-left: 1px solid #d6d6d6;
+  padding: 0px;
+  height: 100%;
+}
+
+.grid-template div:not(:last-child){
+  border-right: 1px solid #d6d6d6;
+  padding: 0px;
+  height: 100%;
+}
